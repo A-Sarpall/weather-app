@@ -1,5 +1,5 @@
-# Backend (push frontend only)
-weather-backend/
+# Virtual environments
+venv/
 
 # Logs
 logs

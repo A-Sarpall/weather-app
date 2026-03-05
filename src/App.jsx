@@ -55,6 +55,7 @@ function App() {
       {weather && (
         <div>
           <p>Temperature: {weather.temperature}°C</p>
+          <p>Temperature: {Math.round(weather.temperature * 1.8 + 32)}°F</p>
           <p>Wind Speed: {weather.wind_speed} km/h</p>
         </div>
       )}
